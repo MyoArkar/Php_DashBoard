@@ -1,0 +1,18 @@
+{
+    "name": "mak/project",
+    "authors": [
+        {
+            "name": "MyoArkar",
+            "email": "myoarkar430@gmail.com"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Libs\\": "_classes/Libs/",
+            "Helpers\\": "_classes/Helpers/"
+        }
+    }
+}
